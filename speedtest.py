@@ -2052,7 +2052,7 @@ def plot_data(server_id_=None):
         plt.show()
 
 
-def get_data():
+def main():
     """
     :return true/false on success/error
     """
@@ -2116,5 +2116,5 @@ def get_data():
         return True 
 
 if __name__ == '__main__':
-    get_data()
+    main()
     # plot_data(server_id_= 8040)
